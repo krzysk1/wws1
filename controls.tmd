@@ -18,7 +18,7 @@
             >
             <[control_input][ElevatorTravel][]
                 <[uint32][InputID][ServoElevator.Output]>
-                <[float64][Scaling][2.0]>
+                <[float64][Scaling][-3.8197]>
             >
             <[control_input][AileronTravel][]
                 <[uint32][InputID][ServoStickAileron.Output]>
@@ -27,18 +27,18 @@
             <[control_rotation][ElevatorTransform][]
                 <[string8][Input][ElevatorTravel.Output]>
                 <[tmvector3d][Axis][0.0 1.0 0.0]>
-                <[tmvector3d][Pivot][0.7214 -0.0000 -0.5303]>
+                <[tmvector3d][Pivot][0.7214 -0.0 -0.5303]>
             >
             <[control_rotation][StickTransform][]
                 <[string8][Input][AileronTravel.Output]>
                 <[tmvector3d][Axis][ 1.0 0.0 0.0]>
-                <[tmvector3d][Pivot][0.7214 -0.0000 -0.5303]>
+                <[tmvector3d][Pivot][0.7214 -0.0 -0.5303]>
                 <[string8][InputTransform][ElevatorTransform.Output]>
             >
             <[control_cylinder][StickGrip][11]
                 <[string8][Type][stick]>
                 <[vector3_float64][R0][0.7214 0.0 -0.1159]>
-                <[matrix3_float64][B0][ 0.000000  0.000000  1.000000  0.000000  1.000000  0.000000 -1.000000  0.000000 0.000000 ]>
+                <[matrix3_float64][B0][ 0.0  0.0  1.0  0.0  1.0  0.0 -1.0  0.0 0.0 ]>
                 <[vector3_float64][Direction][ 1.0  0.0 0.0 ]>
                 <[vector3_float64][Direction2][ 0.0 -1.0 0.0 ]>
                 <[float64][StepDistance][0.00005]>
@@ -88,8 +88,7 @@
                     <[float64][Value][-1.0]>
                 >
                 <[vector3_float64][Dimensions][0.32 0.02 0.002]>
-            >                                                                                                      
-                    
+            >
         >
     >
 >
