@@ -107,7 +107,7 @@
             <[hook][WinchHook][]
                 <[string8][Body][Fuselage]>
                 <[tmvector3d][R0][1.6666 0.0 -1.0106]>
-                <[string8][ReleaseControl][HookInput.Output]>
+                <[string8][ReleaseControl][HookRelease.Output]>
             >
             <[skid][NoseWheelHull][]
                 <[float64][K][14000]>
@@ -388,7 +388,14 @@
                 <[string8][Input][RudderInput.Output]>
                 <[string8][Message][Aircraft.Rudder]>
             >
-            <[input_default][HookInput][]
+            <[event_sound][HookReleaseSound][]
+            >
+            <[input_button][HookReleaseButton][]
+                <[string8][Input][Controls.HookRelease]>
+                <[string8][Events][ HookReleaseSound.Trigger ]>
+                <[string8][EventsRelease][ HookReleaseSound.Trigger ]>
+            >
+            <[input_active][HookRelease][]
                 <[string8][Input][Controls.HookRelease]>
             >
             <[input_default][ElevatorTrimInput][]
@@ -892,7 +899,7 @@
                 <[tmvector3d][Axis][-1.0 0.0 0.0]>
                 <[tmvector3d][Pivot][1.1882 -0.0712 -0.4555]>
                 <[float64][AngleMax][0.000628]>
-            >
+            >			
             <[rigidbodygraphics][BalanceIndicatorBall][]
                 <[string8][GeometryList][ ball ]>
                 <[uint32][PositionID][BalanceIndicatorBall.R]>
@@ -976,7 +983,7 @@
                 <[string8][SoundFile][creak.wav]>
             >
             <[soundinput][AirbrakePosition][]
-                <[uint32][InputID][ServoAirBrakePhisical.Output]>
+                <[uint32][InputID][ServoAirBrakePhysical.Output]>
             >
             <[soundsingle][AirbrakePositionOut][]
                 <[string8][InputVolume][AirbrakePosition.Output]>
@@ -1029,28 +1036,16 @@
                 <[string8][SoundFile][airbrake-whistle.wav]>
                 <[bool][External][false]>
             >
-
-            <[soundinput][HookReleaseSoundPull][]
-                <[string8][InputID][HookReleaseSoundPull.Output]>
+			
+            <[soundinput][HookReleaseSound][]
+                <[uint32][InputID][HookReleaseSound.Output]>
             >
-            <[sound_multi][SoundHookReleasePull][]
+            <[sound_multi][SoundHookRelease][]
                 <[uint32][PositionID][Fuselage.R]>
                 <[uint32][VelocityID][Fuselage.V]>
-                <[string8][InputTrigger][HookReleaseSoundPull.Output]>
-                <[string8][InputVolume] [0.4]>
-                <[string8][InputPitch]  [0.7]>
-                <[string8][SoundFile][winch_release.wav]>
-                <[bool][External][false]>
-            >
-            <[soundinput][HookReleaseSoundSnap][]
-                <[string8][InputID][HookReleaseSoundSnap.Output]>
-            >
-            <[sound_multi][SoundHookReleaseSnap][]
-                <[uint32][PositionID][Fuselage.R]>
-                <[uint32][VelocityID][Fuselage.V]>
-                <[string8][InputTrigger][HookReleaseSoundSnap.Output]>
-                <[string8][InputVolume] [0.4]>
-                <[string8][InputPitch]  [0.7]>
+                <[string8][InputTrigger][HookReleaseSound.Output]>
+                <[string8][InputVolume][0.1]>
+                <[string8][InputPitch][0.6]>
                 <[string8][SoundFile][winch_release.wav]>
                 <[bool][External][false]>
             >
