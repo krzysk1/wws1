@@ -1,7 +1,7 @@
 ﻿<[file][][]
     <[object][][]
         <[int][Version][210]>
-        <[vec32array][ContactSpheres][ (0.8152 0.0 -1.3241 0.034) (-3.9439 0.0 -0.7544 0.034) (-0.1231 6.187 0.2078 0.034) (-0.1231 -6.187 0.2078 0.034) ]>
+        <[vec32array][ContactSpheres][ (0.815 0.0 -1.32 0.03) (-3.944 0.0 -0.754 0.03) (-0.123 6.187 0.208 0.03) (-0.123 -6.187 0.208 0.03) ]>
         <[string8][DisplayName][WWS-1 Salamandra]>
         <[string8][DescriptionTextEN][The W.W.S. 1 Salamandra (Salamander) was a single-seat training glider designed and built in Poland from 1936, and again from 1947 after World War II as IS-A Salamandra. After migrating to Canada as a refugee, Waclaw Czerwinski designed a modified Salamandra as the Czerwiński Sparrow.
 Made by Krzysztof Kaniewski. Original 3D model by Ivo Mikac (3dwarehouse.sketchup.com)]>
