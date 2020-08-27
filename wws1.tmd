@@ -595,6 +595,9 @@
                 <[float64][Limit][0.010]>
                 <[float64][Damping][2.0]>
             >
+            <[output][BalanceIndicatorDeflection][]
+                <[string8][Input][BalanceIndicator.Output]>
+            >			
             <[accelerometer][Accelerometer][]
                 <[string8][Body][Fuselage]>
                 <[tmvector3d][R0][ 1.1844 -0.0 -0.4829 ]>
@@ -899,11 +902,16 @@
                 <[tmvector3d][Axis][-1.0 0.0 0.0]>
                 <[tmvector3d][Pivot][1.1882 -0.0712 -0.4555]>
                 <[float64][AngleMax][0.000628]>
-            >			
-            <[rigidbodygraphics][BalanceIndicatorBall][]
-                <[string8][GeometryList][ Ball ]>
-                <[uint32][PositionID][BalanceIndicatorBall.R]>
             >
+            <[hingedbodygraphics][BalanceIndicatorBall][]
+                <[uint32][PositionID][Fuselage.R]>
+                <[uint32][OrientationID][Fuselage.Q]>
+                <[string8][GeometryList][ Ball ]>
+                <[tmvector3d][Axis][ -1.0 0.0 0.0 ]>
+                <[tmvector3d][Pivot][ 1.1844 -0.0 -0.3329 ]>
+                <[float64][AngleMax][0.07]>
+                <[string8][AngleID][BalanceIndicatorDeflection.Output]>
+            >			
             <[hingedbodygraphics][PitchIndicator][]
                 <[string8][GeometryList][ Pitchindicator ]>
                 <[uint32][PositionID][Fuselage.R]>
