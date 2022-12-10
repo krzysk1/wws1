@@ -22,5 +22,11 @@ Installation
 
 1. Unzip file and move the folder "wws1" to C:\Users\~\Documents\Aerofly FS4\aircraft.
 
+Uninstall
+=========
+
+1. Delete the folder "wws1".
+
+
 Have a fun,
 Krzysk	
