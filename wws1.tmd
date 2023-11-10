@@ -85,35 +85,32 @@
                 <[float64][D][750]>
                 <[string8][Body][LeftWing]>
                 <[string8][Geometry][Mesh32]>
-                <[bool][CrashOnContact][false]>
+                <[bool][NoCrash][true]>
             >
             <[collisionhull][CollisionRightWing][]
                 <[float64][K][50000]>
                 <[float64][D][750]>
                 <[string8][Body][RightWing]>
                 <[string8][Geometry][Mesh39]>
-                <[bool][CrashOnContact][false]>
+                <[bool][NoCrash][true]>
             >
             <[collisionhull][CollisionLeftAileron][]
                 <[float64][K][50000]>
                 <[float64][D][2120]>
                 <[string8][Body][LeftWing]>
                 <[string8][Geometry][Mesh46]>
-                <[bool][CrashOnContact][false]>
             >
             <[collisionhull][CollisionRightAileron][]
                 <[float64][K][50000]>
                 <[float64][D][2120]>
                 <[string8][Body][RightWing]>
                 <[string8][Geometry][Mesh49]>
-                <[bool][CrashOnContact][false]>
             >
             <[collisionhull][CollisionStabilizer][]
                 <[float64][K][50000]>
                 <[float64][D][750]>
                 <[string8][Body][Stabilizer]>
                 <[string8][Geometry][Group13]>
-                <[bool][CrashOnContact][false]>
             >
             <[hook][WinchHook][]
                 <[string8][Body][Fuselage]>
