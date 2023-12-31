@@ -937,7 +937,7 @@
             <[graphics_flasher][BeaconRotation][]
 				<[string8][Function][Triangle]>
                 <[string8][InputTime][UniversalTimeInput.Output]>
-                <[float64][Period][8.493]>
+                <[float64][Period][18.493]>
                 <[float64][Minimum][0.0]>
             >
             <[graphics_linear_interpolation][obj3Mapping_90][]
