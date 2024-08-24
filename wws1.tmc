@@ -16,6 +16,6 @@
         <[float64][MaximumRange][0.0]>
         <[float64][MaximumGlideRatio][15.2]>        <[uint][EngineCount][0]>		
         <[uint][UnitsBuilt][650]>        <[uint][Year][1936]>
-        <[string8][Tags][ airplane historical glider winch_hook tow_hook ]>		<[string8][Pilot][]>
+        <[string8][Tags][ airplane historical glider winch_hook ]>		<[string8][Pilot][]>
     >
 >

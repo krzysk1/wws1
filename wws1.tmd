@@ -112,11 +112,6 @@
                 <[string8][Body][Stabilizer]>
                 <[string8][Geometry][Group13]>
             >
-            <[hook][WinchHook][]
-                <[string8][Body][Fuselage]>
-                <[tmvector3d][R0][1.6666 0.0 -1.0106]>
-                <[string8][ReleaseControl][HookRelease.Output]>
-            >
             <[skid][NoseWheelHull][]
                 <[float64][K][14000]>
                 <[float64][D][130]>
@@ -347,6 +342,72 @@
                 <[float64][BetaMax][2.0]>
             >
 
+            <[input_lever][HookRelease][]
+                <[string8][Message][Controls.HookRelease]>
+            >
+            <[output_free][HookReleaseOutput][]
+                <[string8][Input][HookRelease.Output]>
+            >
+            <[event_sound][HookReleaseSoundPull][]
+            >
+            <[event_sound][HookReleaseSoundSnap][]
+            >
+            <[event_edge_rising][HookRelease_Sound][]
+                <[string8][Input][HookRelease.Output]>
+                <[string8][Events][ HookReleaseSoundPull.Trigger ]>
+                <[float64][Threshold][0.01]>
+            >
+            <[event_edge_falling][HookRelease_Sound1][]
+                <[string8][Input][HookRelease.Output]>
+                <[string8][Events][ HookReleaseSoundSnap.Trigger ]>
+                <[float64][Threshold][0.99]>
+            >
+
+            <[hook_release][WinchHookReleased][]
+                <[string8][Body][Fuselage]>
+                <[tmvector3d][R0][ 1.6666 0.0 -1.0106 ]>
+                <[tmvector3d][Direction][ -1.0 0.0 -0.5 ]>
+                <[string8][Input][HookRelease.Output]>
+                <[float64][AutoReleaseForce][2.0]>
+                <[float64][WeakLink][6000.0]>
+            >
+            <[sender][SenderWinchConnected][]
+                <[string8][Input][WinchHookReleased.OutputConnected]>
+                <[string8][Message][Aircraft.WinchConnected]>
+            >
+            <[attachment_point][WinchHookAttachmentPoint][]
+                <[string8][Body][Fuselage]>
+                <[tmvector3d][R0][ 1.6666 0.0 -1.0106 ]>
+            >
+            <[event_sound][HookReleaseSoundAuto][]
+            >
+            <[event_edge_falling][HookAutoReleaseSound][]
+                <[string8][Input][WinchHookReleased.OutputConnected]>
+                <[string8][Events][ HookReleaseSoundAuto.Trigger ]>
+                <[float64][Value][0.0]>
+            >
+
+            <[hook_release][TowHookReleased][]
+                <[string8][Body][Fuselage]>
+                <[tmvector3d][R0][ 1.37 0.0 -0.6 ]>
+                <[tmvector3d][Direction][ 1.0 0.0 0.1 ]>
+                <[string8][Input][HookRelease.Output]>
+                <[float64][WeakLink][3000.0]>
+            >
+            <[sender][SenderTowConnected][]
+                <[string8][Input][TowHookReleased.OutputConnected]>
+                <[string8][Message][Aircraft.TowConnected]>
+            >
+            <[attachment_point][TowHookAttachmentPoint][]
+                <[string8][Body][Fuselage]>
+                <[tmvector3d][R0][ 1.37 0.0 -0.6 ]>
+            >
+
+            <[attachment_point][WingHolderAttachmentPoint][]
+                <[string8][Body][LeftWing]>
+                <[tmvector3d][R0][ -0.123 6.187 0.208 ]>
+            >
+			
             <[airbrake][LeftAirbrake][]
                 <[string8][Body][LeftWing]>
                 <[tmvector3d][R0][ 0.0998 2.2809 0.2056 ]>
@@ -395,16 +456,6 @@
             <[sender][SenderRudderPosition][]
                 <[string8][Input][RudderInput.Output]>
                 <[string8][Message][Aircraft.Rudder]>
-            >
-            <[event_sound][HookReleaseSound][]
-            >
-            <[input_button][HookReleaseButton][]
-                <[string8][Message][Controls.HookRelease]>
-                <[string8][Events][ HookReleaseSound.Trigger ]>
-                <[string8][EventsRelease][ HookReleaseSound.Trigger ]>
-            >
-            <[input_active][HookRelease][]
-                <[string8][Message][Controls.HookRelease]>
             >
             <[input_default][ElevatorTrimInput][]
                 <[string8][Message][Controls.Trim]>
