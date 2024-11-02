@@ -5,6 +5,10 @@
                 <[string8][Body][Fuselage]>
                 <[tmvector3d][LookAtPosition][ 0.7 0.0 -0.2 ]>
             >
+            <[sender][SenderMass][]
+                <[string8][Input][225.0]>
+                <[string8][Message][Aircraft.Mass]>
+            >			
             <[camera][Follow][]
                 <[string8][Tags][Behind aircraft]>
                 <[string8][Body][Fuselage]>
