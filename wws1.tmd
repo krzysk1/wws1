@@ -8,7 +8,7 @@
             <[sender][SenderMass][]
                 <[string8][Input][225.0]>
                 <[string8][Message][Aircraft.Mass]>
-            >			
+            >
             <[camera][Follow][]
                 <[string8][Tags][Behind aircraft]>
                 <[string8][Body][Fuselage]>
@@ -415,7 +415,7 @@
                 <[string8][Body][LeftWing]>
                 <[tmvector3d][R0][ -0.123 6.187 0.208 ]>
             >
-			
+
             <[airbrake][LeftAirbrake][]
                 <[string8][Body][LeftWing]>
                 <[tmvector3d][R0][ 0.0998 2.2809 0.2056 ]>
