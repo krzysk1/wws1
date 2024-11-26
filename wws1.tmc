@@ -1,1 +1,42 @@
-﻿<[file][][]    <[modelinformation][][]        <[int32][Version][220]>        <[list_vector4_float64][ContactSpheres][ (0.815 0.0 -1.32 0.03) (-3.944 0.0 -0.754 0.03) (-0.123 6.187 0.208 0.03) (-0.123 -6.187 0.208 0.03) ]>        <[stringt8c][ICAO][WWS1]>        <[string8][DisplayName][WWS-1 Salamandra]>        <[string8][DisplayNameFull][WWS-1 Salamandra]>        <[list_localized_text][Descriptions][]            <[localized_text][element][0]                <[string8][Language][en]>                <[string8][Text][The W.W.S. 1 Salamandra (Salamander) was a single-seat training glider designed and built in Poland from 1936, and again from 1947 after World War II as IS-A Salamandra. After migrating to Canada as a refugee, Waclaw Czerwinski designed a modified Salamandra as the Czerwiński Sparrow. Made by Krzysztof Kaniewski. Original 3D model by Ivo Mikac (3dwarehouse.sketchup.com)]>			>            <[localized_text][element][1]                <[string8][Language][de]>                <[string8][Text][Die W.W.S. 1 Salamandra (Salamander) war ein einsitziger Schulgleiter, der ab 1936 in Polen entworfen und gebaut wurde, und erneut ab 1947 nach dem Zweiten Weltkrieg als IS-A Salamandra. Nach seiner Flucht nach Kanada entwarf Waclaw Czerwinski eine modifizierte Salamandra als den Czerwiński Sparrow. Hergestellt von Krzysztof Kaniewski. Ursprüngliches 3D-Modell von Ivo Mikac (3dwarehouse.sketchup.com).]>			>            <[localized_text][element][2]                <[string8][Language][pl]>                <[string8][Text][W.W.S. 1 Salamandra (Salamandra) był jednomiejscowym szybowcem treningowym zaprojektowanym i budowanym w Polsce od 1936 roku, a po II wojnie światowej od 1947 roku jako IS-A Salamandra. Po wyemigrowaniu do Kanady jako uchodźca, Wacław Czerwiński zaprojektował zmodyfikowaną Salamandrę jako Czerwiński Sparrow. Wykonany przez Krzysztofa Kaniewskiego. Oryginalny model 3D autorstwa Ivo Mikac (3dwarehouse.sketchup.com)]>			>        >        <[float64][MaximumTakeoffMass][225.0]>        <[float64][MaximumTakeoffMass][225.0]>		<[float64][WingSpan]          [12.48]>		<[float64][MaximumAirspeed]   [40.5]>		<[float64][MaximumSpeed]      [40.5]>		<[float64][MinimumAirspeed]   [11.6]>        <[float64][ApproachAirspeed]  [13.3]>        <[float64][CruiseAirspeed]    [25.6]>        <[float64][CruiseSpeed]       [35.6]>		<[tmvector2d][NormalAirspeedRange][ 11.6 30.0 ]>		<[tmvector2d][CautionAirspeedRange][ 30.0 40.5 ]>        <[float64][MaximumAltitude][5090.0]>        <[float64][CruiseAltitude][1826.0]>        <[float64][MaximumTakeoffMass][225.0]>        <[float64][MaximumRange][0.0]>        <[float64][MaximumGlideRatio][15.2]>        <[uint][EngineCount][0]>        <[uint][UnitsBuilt][650]>        <[uint][Year][1936]>        <[string8][Tags][ airplane historical glider winch_hook ]>		<[string8][Pilot][]>    >>
+﻿<[file][][]
+    <[modelinformation][][]
+        <[int32][Version][220]>
+        <[list_vector4_float64][ContactSpheres][ (0.815 0.0 -1.32 0.03) (-3.944 0.0 -0.754 0.03) (-0.123 6.187 0.208 0.03) (-0.123 -6.187 0.208 0.03) ]>
+        <[stringt8c][ICAO][WWS1]>
+        <[string8][DisplayName][WWS-1 Salamandra]>
+        <[string8][DisplayNameFull][WWS-1 Salamandra]>
+        <[list_localized_text][Descriptions][]
+            <[localized_text][element][0]
+                <[string8u][Language][en]>
+                <[string8][Text][The W.W.S. 1 Salamandra (Salamander) was a single-seat training glider designed and built in Poland from 1936, and again from 1947 after World War II as IS-A Salamandra. After migrating to Canada as a refugee, Waclaw Czerwinski designed a modified Salamandra as the Czerwiński Sparrow. Made by Krzysztof Kaniewski. Original 3D model by Ivo Mikac (3dwarehouse.sketchup.com)]>
+			>
+            <[localized_text][element][1]
+                <[string8u][Language][de]>
+                <[string8][Text][Die W.W.S. 1 Salamandra (Salamander) war ein einsitziger Schulgleiter, der ab 1936 in Polen entworfen und gebaut wurde, und erneut ab 1947 nach dem Zweiten Weltkrieg als IS-A Salamandra. Nach seiner Flucht nach Kanada entwarf Waclaw Czerwinski eine modifizierte Salamandra als den Czerwiński Sparrow. Hergestellt von Krzysztof Kaniewski. Ursprüngliches 3D-Modell von Ivo Mikac (3dwarehouse.sketchup.com).]>
+			>
+            <[localized_text][element][2]
+                <[string8u][Language][pl]>
+                <[string8][Text][W.W.S. 1 Salamandra (Salamandra) był jednomiejscowym szybowcem treningowym zaprojektowanym i budowanym w Polsce od 1936 roku, a po II wojnie światowej od 1947 roku jako IS-A Salamandra. Po wyemigrowaniu do Kanady jako uchodźca, Wacław Czerwiński zaprojektował zmodyfikowaną Salamandrę jako Czerwiński Sparrow. Wykonany przez Krzysztofa Kaniewskiego. Oryginalny model 3D autorstwa Ivo Mikac (3dwarehouse.sketchup.com)]>
+			>
+        >
+        <[float64][MaximumTakeoffMass][225.0]>
+		<[float64][WingSpan]          [12.48]>
+		<[float64][MaximumAirspeed]   [40.5]>
+		<[float64][MaximumSpeed]      [40.5]>
+		<[float64][MinimumAirspeed]   [11.6]>
+        <[float64][ApproachAirspeed]  [13.3]>
+        <[float64][CruiseAirspeed]    [25.6]>
+        <[float64][CruiseSpeed]       [35.6]>
+		<[vector2_float64][NormalAirspeedRange][ 11.6 30.0 ]>
+		<[vector2_float64][CautionAirspeedRange][ 30.0 40.5 ]>
+        <[float64][MaximumAltitude][5090.0]>
+        <[float64][CruiseAltitude][1826.0]>
+        <[float64][MaximumTakeoffMass][225.0]>
+        <[float64][MaximumGlideRatio][15.2]>
+        <[uint32][EngineCount][0]>
+        <[uint32][UnitsBuilt][650]>
+        <[uint32][Year][1936]>
+        <[string8][Tags][ airplane historical glider winch_hook ]>
+		<[string8][Pilot][]>
+    >
+>

@@ -89,6 +89,8 @@
                 <[float64][D][750]>
                 <[string8][Body][LeftWing]>
                 <[string8][Geometry][Mesh32]>
+                <[float64][StaticFrictionCoefficient][1.0]>
+                <[float64][KineticFrictionCoefficient][0.4]>
                 <[bool][NoCrash][true]>
             >
             <[collisionhull][CollisionRightWing][]
@@ -96,6 +98,8 @@
                 <[float64][D][750]>
                 <[string8][Body][RightWing]>
                 <[string8][Geometry][Mesh39]>
+                <[float64][StaticFrictionCoefficient][1.0]>
+                <[float64][KineticFrictionCoefficient][0.4]>
                 <[bool][NoCrash][true]>
             >
             <[collisionhull][CollisionLeftAileron][]
