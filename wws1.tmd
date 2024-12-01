@@ -18,7 +18,7 @@
             <[camera_head][PilotCamera][]
                 <[string8][Tags][Pilot seat]>
                 <[string8][Body][Fuselage]>
-                <[tmvector3d][R0][ 0.7936 0.0 -0.1859 ]>
+                <[tmvector3d][R0][ 0.77 0.0 -0.17 ]>
                 <[tmvector3d][Direction][ 0.957826 0.0 -0.287348 ]>
                 <[float64][Kf][40.0]>
                 <[float64][Df][1.0]>
@@ -107,12 +107,14 @@
                 <[float64][D][2120]>
                 <[string8][Body][LeftWing]>
                 <[string8][Geometry][Mesh46]>
+                <[bool][NoCrash][true]>
             >
             <[collisionhull][CollisionRightAileron][]
                 <[float64][K][50000]>
                 <[float64][D][2120]>
                 <[string8][Body][RightWing]>
                 <[string8][Geometry][Mesh49]>
+                <[bool][NoCrash][true]>
             >
             <[collisionhull][CollisionStabilizer][]
                 <[float64][K][50000]>
